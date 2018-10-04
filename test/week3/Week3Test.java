@@ -32,7 +32,7 @@ public class Week3Test {
         assertEquals("Binh thuong", Week3.calculateBMI(60, 1.7));
         assertEquals("Thieu can", Week3.calculateBMI(50, 1.75));
         assertEquals("Binh thuong", Week3.calculateBMI(60, 1.65));
-        assertEquals("Beo Phi", Week3.calculateBMI(80, 1.5));
+        assertEquals("Beo phi", Week3.calculateBMI(80, 1.5));
         assertEquals("Thua can", Week3.calculateBMI(70, 1.7));
     }
 }
