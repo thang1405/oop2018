@@ -42,5 +42,6 @@ public class CamThanhPhong extends Cam {
         CamThanhPhong camThanhPhong1= new CamThanhPhong(10000,10);
         camThanhPhong.printf();
         camThanhPhong1.printf();
+
     }
 }
