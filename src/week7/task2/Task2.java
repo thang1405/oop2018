@@ -52,8 +52,20 @@ public class Task2 {
             System.out.println("Error!! Can't division with 0..");
             //e.printStackTrace();
         }
-
+        try{
+           long i =2;
+           int k = (int) i;
+        }
+        catch (ClassCastException e){// lỗi ép kiểu
+            System.out.println("Error!!Class Cast..");
+            //e.printStackTrace();
+        }
+        Task2 e = new Task2();
+        e.readfile();
         Task2 t = new Task2();
         t.readfile();
+        Object obj = Test.getVal();
+        System.out.println(String.valueOf(Test.getVal()));
+        
     }
 }
