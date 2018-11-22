@@ -1,6 +1,6 @@
 package week7.task1;
 
-public class ExpressionTest {
+public class ExpressionTest{
     public static void main(String[] args){
         Expression square = new Square(new Numeral(10));
         Expression numeral = new Numeral(1);
@@ -8,7 +8,7 @@ public class ExpressionTest {
         Expression subtraction = new Subtraction(square,numeral);//phép trừ
         Expression addition = new Addition(multiplication,subtraction);// thêm
         Expression square1 = new Square(addition);
-        System.out.println(square1.evaluate());
+        System.out.println(square.evaluate());
         System.out.println(square1.toString());
 
         Expression division = new Division(new Numeral(10), new Numeral(0));
