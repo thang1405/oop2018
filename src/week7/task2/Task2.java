@@ -11,7 +11,7 @@ public class Task2 {
     }
     public void readfile(){
         try{
-            BufferedReader br = new BufferedReader(new FileReader("b.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("a.txt"));
         }
         catch (FileNotFoundException e){// lỗi ko tìm thấy file
             System.out.println("Error!! File Not Found..");
@@ -52,10 +52,18 @@ public class Task2 {
             System.out.println("Error!! Can't division with 0..");
             //e.printStackTrace();
         }
-
+        try{
+            long i =2;
+            int k = (int) i;
+        }
+        catch (ClassCastException e){// lỗi ép kiểu
+            System.out.println("Error!!Class Cast..");
+            //e.printStackTrace();
+        }
+        Task2 e = new Task2();
+        e.readfile();
         Task2 t = new Task2();
         t.readfile();
-
 
     }
 }
